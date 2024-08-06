@@ -1,0 +1,3 @@
+# Diffie-Hellman-Double-Rachet-encryption
+Double Ratchet is used by the biggest platforms in the field, such as Signal, Facebook Messenger, WhatsApp and Matrix in order to provide E2E encryption for their instant messages. 
+It is a promising kind of cryptography, which offers some very nice guarantees: forward secrecy (ie. by breaking a key at some point you can’t read older messages), eventual break-in recovery (ie. by breaking a key you can only read a few messages before the protocol recovers), and of course confidentiality and deniability. It’s all done through the use of “ratchets”, which are used to update the key used with each message.
